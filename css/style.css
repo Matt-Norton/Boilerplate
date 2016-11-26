@@ -1,0 +1,87 @@
+nav {
+	text-align: center;
+	margin: 10px auto;
+}
+nav > ul > li {
+	list-style-type: none;
+	display: inline;
+	padding: 10px 40px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0px auto;
+	width: 960px;
+    background-color: #fff;
+}
+html {
+	height: 100%;
+	background-color: grey;
+	
+}
+
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+} 
+
+a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+}
+
+
+
+h1 { 
+    text-align: center; 
+}
+
+section.S9R img { 
+    float: left; 
+    }
+
+section.S9R h3 { 
+    text-decoration: underline; font-size: 1.2em; margin-top: 50px; 
+}
+
+li { 
+    list-style-type: none;
+    font-size: 1em; margin-top: 4px; 
+}
+
+section.S9R button { 
+    margin-top: 20px
+}
+
+section.S9R p { 
+    float: left; 
+}
+
+input, textarea, button { 
+    margin-left: 5px;
+    width: 200px; 
+    margin-bottom: 12px; 
+    padding: 5px; 
+}
+
+textarea { 
+    resize: none; 
+    height: 105px; 
+}
+
+p{
+    margin-left: 10px;
+}
